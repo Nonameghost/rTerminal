@@ -19,6 +19,7 @@ use WWW::Mechanize;
 use JSON -support_by_pp;
 use Data::Dump;
 use Term::ReadKey;
+use Win32::Console::ANSI;
 
 ($wchar, $hchar, $wpixels, $hpixels) = GetTerminalSize();
 
